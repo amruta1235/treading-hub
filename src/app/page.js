@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className="container position-relative">
           <div className="row align-items-center">
-            <div className="col-lg-8 text-white">
+            <div className="col-lg-8 mt-5 text-white">
               <h1 className="display-4 fw-bold mb-5" style={{
                 fontSize: '3.5rem',
                 lineHeight: '1.1',
