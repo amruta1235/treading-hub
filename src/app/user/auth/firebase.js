@@ -3,14 +3,15 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyCvaN0_iUrGlwsLq7cdfUEp1-ULtyjMEcU",
+  authDomain: "green-raise-agro.firebaseapp.com",
+  projectId: "green-raise-agro",
+  storageBucket: "green-raise-agro.firebasestorage.app",
+  messagingSenderId: "808162429235",
+  appId: "1:808162429235:web:0eaac96646bc5e494c9646",
+  measurementId: "G-CMR5FXCRE2"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
